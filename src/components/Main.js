@@ -112,9 +112,7 @@ class Main extends React.Component {
         >          
           <h2 className="major">Contact Me</h2>
           <p>
-            I was born and grew up in the beautiful state of Texas. I grew up playing soccer and was 
-            forced to do track (not my favorite). My husband, Michael, and I have three children, 
-            Wyatt, Holden, and Nixon. We love the outdoors, hiking, camping, and being with my family. 
+            Please feel free to reach out! You can also contact me via the email or message me on LinkedIn. I look forward to hearing from you. 
           </p>
           <form method="post" netlify-honeypot="bot-field" data-netlify="true">
             <input type="hidden" name="bot-field" />
@@ -141,8 +139,8 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a href="kelli.k.frazier@gmail.com" className="icon fa-envelope">
-                <span className="label">Facebook</span>
+              <a href="mailto:kelli.k.frazier@gmail.com" className="icon fa-envelope">
+                <span className="label">Email</span>
               </a>
             </li> 
             <li>
@@ -155,11 +153,6 @@ class Main extends React.Component {
                 <span className="label">Twitter</span>
               </a>
             </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>                        
           </ul>
           {close}
         </article>
