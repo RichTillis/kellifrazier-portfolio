@@ -116,7 +116,8 @@ class Main extends React.Component {
             forced to do track (not my favorite). My husband, Michael, and I have three children, 
             Wyatt, Holden, and Nixon. We love the outdoors, hiking, camping, and being with my family. 
           </p>
-          <form method="post" action="#">
+          <form method="post" netlify-honeypot="bot-field" data-netlify="true">
+            <input type="hidden" name="bot-field" />
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
