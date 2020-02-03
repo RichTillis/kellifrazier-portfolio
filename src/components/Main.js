@@ -1,8 +1,11 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+// import pic01 from '../images/pic01.jpg'
+// import pic02 from '../images/pic02.jpg'
+// import pic03 from '../images/pic03.jpg'
+import kel1 from '../images/kel1.jpg'
+import family from '../images/family.jpg'
+import kel6 from '../images/kel6.jpg'
 
 class Main extends React.Component {
   render() {
@@ -22,35 +25,38 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="intro"
+          id="about"
           className={`${this.props.article === 'intro' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Educational Philosophy</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={kel1} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            All students have a right to an equitable free and appropriate public education with 
+            differentiated instruction to meet individual learning needs. The environment in which 
+            students are taught should have a safe, encouraging atmosphere. Education should focus 
+            on developing the whole child, teaching academic, social, and emotional learning for 
+            all. An inherent culture of discourse, critical thinking, and independence should 
+            exist. Learning should be made relevant to students’ lives and application of skills 
+            practiced in multiple settings, not just in a classroom. All individuals, students, 
+            staff, and families, should be encouraged to reflect on practice and growth. To lead 
+            meaningful change, reflection should be on all levels of learning and guided by the 
+            use of data to make an informed plan for change.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            Furthermore, I believe that every student has the ability to learn and be successful. 
+            In order to create an atmosphere conducive to learning, students must feel comfortable 
+            taking risks. Therefore, I strive to foster a school and classroom community where 
+            students and families feel safe and supported. In addition, families and students each 
+            bring a unique set of skills and experiences to the school and classroom and learn best 
+            in varying ways due to different learning styles, interests, and preferences. I embrace 
+            these differences and use them to strengthen learning experiences in my school and 
+            classrooms. I set high expectations for each and every one of my staff members as well 
+            as students, while providing the structure and guidance necessary to achieve success.
           </p>
           {close}
         </article>
@@ -62,24 +68,18 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Work History</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={kel6} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            I began my career as a 4th grade teacher, then wanted to try 2nd grade. I was approached 
+            my 6th year teaching to become our schools reading interventionist. Two years after being 
+            the reading interventionist, the site principal wanted me to become the program 
+            facilitator. I humbly accepted. Shortly after I moved to Mesa, AZ where I began my career 
+            with Queen Creek Unified School District as Data specialist. I then became the Dean and 
+            currently serve as the TOSA. I am a proud graduate of Northern Arizona University where 
+            I earned a BA in Elementary Education, an MA in Educational Leadership.
           </p>
           {close}
         </article>
@@ -91,18 +91,14 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">About Me</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={family} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            I was born and grew up in the beautiful state of Texas. I grew up playing soccer and was 
+            forced to do track (not my favorite). My husband, Michael, and I have three children, 
+            Wyatt, Holden, and Nixon. We love the outdoors, hiking, camping, and being with my family. 
           </p>
           {close}
         </article>
@@ -113,8 +109,13 @@ class Main extends React.Component {
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
-        >
-          <h2 className="major">Contact</h2>
+        >          
+          <h2 className="major">Contact Me</h2>
+          <p>
+            I was born and grew up in the beautiful state of Texas. I grew up playing soccer and was 
+            forced to do track (not my favorite). My husband, Michael, and I have three children, 
+            Wyatt, Holden, and Nixon. We love the outdoors, hiking, camping, and being with my family. 
+          </p>
           <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
@@ -139,10 +140,17 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
+              <a href="kelli.k.frazier@gmail.com" className="icon fa-envelope">
+                <span className="label">Facebook</span>
+              </a>
+            </li> 
+            <li>
+              <a href="https://www.linkedin.com/in/kelli-frazier" className="icon fa-linkedin">
+                <span className="label">LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/Kelli_K_Frazier" className="icon fa-twitter">
                 <span className="label">Twitter</span>
               </a>
             </li>
@@ -150,20 +158,7 @@ class Main extends React.Component {
               <a href="https://codebushi.com" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
-              </a>
-            </li>
+            </li>                        
           </ul>
           {close}
         </article>
