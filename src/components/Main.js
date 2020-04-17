@@ -4,7 +4,7 @@ import React from 'react'
 // import pic02 from '../images/pic02.jpg'
 // import pic03 from '../images/pic03.jpg'
 import kel1 from '../images/kel1.jpg'
-import family from '../images/family.jpg'
+import family from '../images/kelFam.png'
 import kel6 from '../images/kel6.jpg'
 
 class Main extends React.Component {
