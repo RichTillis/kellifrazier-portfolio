@@ -5,7 +5,7 @@ import React from 'react'
 // import pic03 from '../images/pic03.jpg'
 import kel1 from '../images/kel1.jpg'
 import family from '../images/kelFam.png'
-import kel6 from '../images/kel6.jpg'
+import kel8 from '../images/kel8.jpg'
 
 class Main extends React.Component {
   render() {
@@ -70,15 +70,15 @@ class Main extends React.Component {
         >
           <h2 className="major">Work History</h2>
           <span className="image main">
-            <img src={kel6} alt="" />
+            <img src={kel8} alt="" />
           </span>
           <p>
-            I began my career as a 4th grade teacher, then wanted to try 2nd grade. I was approached 
+          I began my career as a 4th grade teacher, then wanted to try 2nd grade. I was approached 
             my 6th year teaching to become our schools reading interventionist. Two years after being 
             the reading interventionist, the site principal wanted me to become the program 
             facilitator. I humbly accepted. Shortly after I moved to Mesa, AZ where I began my career 
-            with Queen Creek Unified School District as Data specialist. I then became the Dean and 
-            currently serve as the TOSA. I am a proud graduate of Northern Arizona University where 
+            with Queen Creek Unified School District as Data specialist. I then became the Dean of Students. I 
+            am currently serving QCUSD as the Data Specialist. I am a proud graduate of Northern Arizona University where 
             I earned a BA in Elementary Education, an MA in Educational Leadership.
           </p>
           {close}
