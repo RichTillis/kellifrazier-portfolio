@@ -12,6 +12,23 @@ const Header = props => (
         <p>
           Leader / Educator / Influencer
         </p>
+        <ul className="icons">
+            <li>
+              <a href="mailto:kelli.k.frazier@gmail.com" className="icon fa-envelope">
+                <span className="label">Email</span>
+              </a>
+            </li> 
+            <li>
+              <a href="https://www.linkedin.com/in/kelli-frazier" className="icon fa-linkedin">
+                <span className="label">LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/Kelli_K_Frazier" className="icon fa-twitter">
+                <span className="label">Twitter</span>
+              </a>
+            </li>
+          </ul>
       </div>
     </div>
     <nav>
