@@ -63,9 +63,9 @@
   }
 
   .logo {
-    width: 5.5rem;
-    height: 5.5rem;
-    line-height: 5.5rem;
+    width: 10rem;
+    height: 10rem;
+    line-height: 10rem;
     border: solid _size(border-width) _palette(border);
     border-radius: 100%;
 
@@ -73,6 +73,11 @@
       &:before {
         font-size: 2rem;
       }
+    }
+
+    .circular-profile{
+      border-radius: 50%;
+      width: 100%;
     }
   }
 
@@ -125,6 +130,20 @@
 
         &:first-child {
           border-left: 0;
+        }
+
+        .my-link{
+          display: inline-block;
+          min-width: 7.5rem;
+          height: 2.75rem;
+          line-height: 2.75rem;
+          padding: 0 1.25rem 0 1.45rem;  
+          text-transform: uppercase;
+          letter-spacing: 0.2rem;
+          font-size: 0.8rem;
+          font-family: "Source Sans Pro", sans-serif;
+          border: none;
+          box-shadow: none;
         }
 
         button {

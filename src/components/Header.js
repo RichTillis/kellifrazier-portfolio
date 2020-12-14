@@ -1,10 +1,15 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import resume from '../documents/kelli-frazier-resume.pdf'
+import profile from '../images/profile.png'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      {/* <span className="icon fa-diamond"></span> */}
+      <span className="icon">
+      <img className="circular-profile" src={profile} alt="" />
+      </span>
     </div>
     <div className="content">
       <div className="inner">
@@ -50,6 +55,9 @@ const Header = props => (
           >
             Career
           </button>
+        </li>
+        <li>
+          <a href={resume} className="my-link" target="_blank">Resume</a>
         </li>
         {/* <li>
           <button

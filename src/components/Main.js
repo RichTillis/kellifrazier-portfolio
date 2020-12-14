@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+
 // import pic01 from '../images/pic01.jpg'
 // import pic02 from '../images/pic02.jpg'
 // import pic03 from '../images/pic03.jpg'
@@ -137,17 +138,44 @@ class Main extends React.Component {
         </article>
 
         <article
+          id="resume"
+          className={`${this.props.article === 'resume' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Resume</h2>
+          <span className="image main">
+            <img src={family} alt="" />
+          </span>          
+          
+          {close}
+        </article>
+
+        <article
           id="references"
           className={`${this.props.article === 'references' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Resume & References</h2>
+          <h2 className="major">My References</h2>
           <span className="image main">
             <img src={family} alt="" />
           </span>
           
+          <div className="testimonial-quote group">
+            <img src="http://placehold.it/120x120"></img>
+            <div className="quote-container">
+              <blockquote>
+                <p>Overall, fantastic! I'd recommend them to anyone looking for a creative, thoughtful, and professional team.”</p>
+              </blockquote>  
+              <cite><span>Kristi Bruno</span><br></br>
+                Social Media Specialist<br></br>
+                American College of Chest Physicians
+              </cite> 
+            </div>            
+          </div>    
           {close}
         </article>
 
