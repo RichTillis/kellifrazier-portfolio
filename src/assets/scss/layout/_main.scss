@@ -113,6 +113,7 @@
 
 			.testimonial-quote {
 				font-size: 16px;
+				padding-bottom:40px;
 			}
 			
 			.testimonial-quote blockquote {
@@ -140,6 +141,7 @@
 			.testimonial-quote blockquote p {
 				color: #75808a; 
 				line-height: 1.2 !important;
+				margin: 0 0 .75rem 0;
 			}
 			
 			.testimonial-quote blockquote p:first-child:before {
@@ -204,9 +206,9 @@
 			.testimonial-quote.right cite {
 				text-align: right; 
 			}
-			.my-blockquote::before{
+			.my-blockquote::after{
 				content: "";
-				top: -25px;
+				bottom: -100px;
 				left: 50%;
 				margin-left: -100px;
 				position: absolute;

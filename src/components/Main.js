@@ -1,9 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 
-// import pic01 from '../images/pic01.jpg'
-// import pic02 from '../images/pic02.jpg'
-// import pic03 from '../images/pic03.jpg'
 import kel1 from '../images/kel1.jpg'
 import family from '../images/kelFam.png'
 import kel8 from '../images/kel8.jpg'
@@ -13,7 +10,8 @@ import pdfIcon from '../images/pdf-icon.png'
 import niven from '../documents/K-Frazier-Letter-of-Rec.pdf'
 import monroe from '../documents/monroe-letter-of-rec.pdf'
 import carmichael from '../documents/carmichael-Letter-of-Rec.pdf'
-
+import coc from '../documents/Frazier,Kelli-LeadershipCoC.pdf'
+import cover from '../documents/kelli-frazier-cover.pdf'
 
 class Main extends React.Component {
   render() {
@@ -160,16 +158,29 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="references"
-          className={`${this.props.article === 'references' ? 'active' : ''} ${
+          id="resources"
+          className={`${this.props.article === 'resources' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">My References</h2>
+          <h2 className="major">My Resources</h2>
           <span className="image main">
             <img src={kel6} alt="" />
           </span>
+          <h3 className="major career-subheading">Cover Letter</h3>
+          <div className="testimonial-quote group">
+            <div className="quote-container">
+              <div className="testimonial-quote group">
+              <a href={cover} target="_blank" rel="noopener noreferrer" >
+                <img src={pdfIcon} alt="" />
+              </a>
+              </div>
+            </div>            
+          </div> 
+
+          <h3 className="major career-subheading">References</h3>
+
           <div className="testimonial-quote group">
             <div className="quote-container">
               <blockquote className="my-blockquote">
@@ -211,6 +222,20 @@ class Main extends React.Component {
               </a>
               <cite><span>Dr. Cort Monroe</span><br></br>
               Asst. Superintendent of Support Services<br></br>
+              </cite> 
+              </div>
+            </div>            
+          </div> 
+          <h3 className="major career-subheading">Certificates</h3>
+          <div className="testimonial-quote group">
+            <div className="quote-container">
+                
+              <div className="testimonial-quote group">
+              <a href={coc} target="_blank" rel="noopener noreferrer" >
+                <img src={pdfIcon} alt="" />
+              </a>
+              <cite><span>Quail Creek Leadership Academy</span><br></br>
+              Certificate of Completion<br></br>
               </cite> 
               </div>
             </div>            
