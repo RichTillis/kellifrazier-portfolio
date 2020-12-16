@@ -11,6 +11,8 @@ import kel6 from '../images/kel6.jpg'
 
 import pdfIcon from '../images/pdf-icon.png'
 import niven from '../documents/K-Frazier-Letter-of-Rec.pdf'
+import monroe from '../documents/monroe-letter-of-rec.pdf'
+import carmichael from '../documents/carmichael-Letter-of-Rec.pdf'
 
 
 class Main extends React.Component {
@@ -171,6 +173,21 @@ class Main extends React.Component {
           <div className="testimonial-quote group">
             <div className="quote-container">
               <blockquote className="my-blockquote">
+                <p>She can be counted on and trusted to accomplish tasks of her job requirements and others”</p>
+              </blockquote>  
+              <div className="testimonial-quote group">
+              <a href={carmichael} target="_blank" rel="noopener noreferrer" >
+                <img src={pdfIcon} alt="" />
+              </a>
+              <cite><span>Allison Carmichael</span><br></br>
+              Principal<br></br>
+              </cite> 
+              </div>
+            </div>            
+          </div> 
+          <div className="testimonial-quote group">
+            <div className="quote-container">
+              <blockquote className="my-blockquote">
                 <p>An educator who develops relationships with her students, works diligently to ensure they are successful, and challenges them to be their best”</p>
               </blockquote>  
               <div className="testimonial-quote group">
@@ -183,6 +200,21 @@ class Main extends React.Component {
               </div>
             </div>            
           </div>  
+          <div className="testimonial-quote group">
+            <div className="quote-container">
+              <blockquote className="my-blockquote">
+                <p>The training and experience Kelli received by attending the Queen Creek Leadership Academy will prove to be an invaluable asset that sets her apart as a professional leader”</p>
+              </blockquote>  
+              <div className="testimonial-quote group">
+              <a href={monroe} target="_blank" rel="noopener noreferrer" >
+                <img src={pdfIcon} alt="" />
+              </a>
+              <cite><span>Dr. Cort Monroe</span><br></br>
+              Asst. Superintendent of Support Services<br></br>
+              </cite> 
+              </div>
+            </div>            
+          </div> 
           {close}
         </article>
 
