@@ -12,6 +12,8 @@ import monroe from '../documents/monroe-letter-of-rec.pdf'
 import carmichael from '../documents/carmichael-Letter-of-Rec.pdf'
 import coc from '../documents/Frazier,Kelli-LeadershipCoC.pdf'
 import cover from '../documents/kelli-frazier-cover.pdf'
+import swaninger from '../documents/swaninger-letter-of-rec.pdf'
+
 
 class Main extends React.Component {
   render() {
@@ -207,6 +209,21 @@ class Main extends React.Component {
               </a>
               <cite><span>Julie Niven</span><br></br>
                 Education Specialist<br></br>
+              </cite> 
+              </div>
+            </div>            
+          </div>  
+          <div className="testimonial-quote group">
+            <div className="quote-container">
+              <blockquote className="my-blockquote">
+                <p>Our organization has grown greatly from her visionary mindset, her efficient approach, and her dedication toward people she serves”</p>
+              </blockquote>  
+              <div className="testimonial-quote group">
+              <a href={swaninger} target="_blank" rel="noopener noreferrer" >
+                <img src={pdfIcon} alt="" />
+              </a>
+              <cite><span>Tom Swaninger</span><br></br>
+                Principal<br></br>
               </cite> 
               </div>
             </div>            
