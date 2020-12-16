@@ -7,6 +7,11 @@ import React from 'react'
 import kel1 from '../images/kel1.jpg'
 import family from '../images/kelFam.png'
 import kel8 from '../images/kel8.jpg'
+import kel6 from '../images/kel6.jpg'
+
+import pdfIcon from '../images/pdf-icon.png'
+import niven from '../documents/K-Frazier-Letter-of-Rec.pdf'
+
 
 class Main extends React.Component {
   render() {
@@ -74,7 +79,7 @@ class Main extends React.Component {
             <img src={kel8} alt="" />
           </span>
           <h3 className="major career-subheading">Education</h3>
-          <p class="career-education">
+          <p className="career-education">
             Master of Education, Educationl Leadership (2006), Northern Arizona University
           </p>
           <p>
@@ -161,21 +166,23 @@ class Main extends React.Component {
         >
           <h2 className="major">My References</h2>
           <span className="image main">
-            <img src={family} alt="" />
+            <img src={kel6} alt="" />
           </span>
-          
           <div className="testimonial-quote group">
-            <img src="http://placehold.it/120x120"></img>
             <div className="quote-container">
-              <blockquote>
-                <p>Overall, fantastic! I'd recommend them to anyone looking for a creative, thoughtful, and professional team.”</p>
+              <blockquote className="my-blockquote">
+                <p>An educator who develops relationships with her students, works diligently to ensure they are successful, and challenges them to be their best”</p>
               </blockquote>  
-              <cite><span>Kristi Bruno</span><br></br>
-                Social Media Specialist<br></br>
-                American College of Chest Physicians
+              <div className="testimonial-quote group">
+              <a href={niven} target="_blank" rel="noopener noreferrer" >
+                <img src={pdfIcon} alt="" />
+              </a>
+              <cite><span>Julie Niven</span><br></br>
+                Education Specialist<br></br>
               </cite> 
+              </div>
             </div>            
-          </div>    
+          </div>  
           {close}
         </article>
 

@@ -59,7 +59,7 @@ const Header = props => (
         <li>
           <a href={resume} className="my-link" target="_blank">Resume</a>
         </li>
-        {/* <li>
+        <li>
           <button
             onClick={() => {
               props.onOpenArticle('references')
@@ -67,7 +67,7 @@ const Header = props => (
           >
             References
           </button>
-        </li> */}
+        </li>
         <li>
           <button
             onClick={() => {

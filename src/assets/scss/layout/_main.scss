@@ -106,6 +106,11 @@
 				padding-top: .75em;
 			}
 
+			.testimonial{
+				padding-top: 20px;
+				font-size: 16px;
+			}
+
 			.testimonial-quote {
 				font-size: 16px;
 			}
@@ -134,13 +139,13 @@
 			
 			.testimonial-quote blockquote p {
 				color: #75808a; 
-				line-height: 1.4 !important;
+				line-height: 1.2 !important;
 			}
 			
 			.testimonial-quote blockquote p:first-child:before {
 				content: '\201C';
 				color: #81bedb;
-				font-size: 7.5em;
+				font-size: 4.5em;
 				font-weight: 700;
 				opacity: .3;
 				position: absolute;
@@ -151,20 +156,21 @@
 			}
 			
 			.testimonial-quote img {
-				border: 3px solid #9CC1D3;
+				// border: 3px solid #9CC1D3;
 				border-radius: 50%;
 				display: block;
-				width: 120px;
-				height: 120px;
+				width: 60px;
+				height: 60px;
 				position: absolute;
 				top: -.2em; 
 				left: 0;    
 			}
 			
 			.testimonial-quote cite {
+				padding-left: 90px;
 				color: gray;
 				display: block;
-				font-size: .8em; 
+				// font-size: .8em; 
 			}
 			  
 			.testimonial-quote cite span {
@@ -182,12 +188,12 @@
 			}
 			
 			.testimonial-quote .quote-container {
-				padding-left: 160px; 
+				// padding-left: 160px; 
 			}
 			  
 			.testimonial-quote.right .quote-container {
 				padding-left: 0;
-				padding-right: 160px; 
+				// padding-right: 160px; 
 			}
 			
 			.testimonial-quote.right img {
@@ -197,6 +203,16 @@
 			
 			.testimonial-quote.right cite {
 				text-align: right; 
+			}
+			.my-blockquote::before{
+				content: "";
+				top: -25px;
+				left: 50%;
+				margin-left: -100px;
+				position: absolute;
+				border-bottom: 3px solid #81bedb;
+				height: 3px;
+				width: 200px;
 			}
 
 		}
