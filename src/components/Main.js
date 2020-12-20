@@ -88,7 +88,7 @@ class Main extends React.Component {
             Bachelrs of Science, Education (2003), Northern Arizona University
           </p>
           <h3 className="major career-subheading">Career Summary</h3>
-          <p class="career-summary">
+          <p className="career-summary">
           I began my career as a 4th grade teacher, then wanted to try 2nd grade. I was approached 
             my 6th year teaching to become our schools reading interventionist. Two years after being 
             the reading interventionist, the site principal wanted me to become the program 
@@ -97,46 +97,46 @@ class Main extends React.Component {
             am currently serving QCUSD as the Data Specialist.
           </p>
           <h3 className="major career-subheading">Career Progression</h3>
-          <div class="career">
-            <p class="career-title">Data Specialist</p>
-            <p class="career-employer">Queen Creek Unified School District</p>
-            <p class="career-timeline">2019 — Present</p>
+          <div className="career">
+            <p className="career-title">Data Specialist</p>
+            <p className="career-employer">Queen Creek Unified School District</p>
+            <p className="career-timeline">2019 — Present</p>
           </div>
           
           <div>
-            <p class="career-title">Dean of Students</p>
-            <p class="career-employer">Queen Creek Unified School District</p>
-            <p class="career-timeline">2017 — 2019</p>
+            <p className="career-title">Dean of Students</p>
+            <p className="career-employer">Queen Creek Unified School District</p>
+            <p className="career-timeline">2017 — 2019</p>
           </div>
 
           <div>
-            <p class="career-title">Reading Specialist</p>
-            <p class="career-employer">Queen Creek Unified School District</p>
-            <p class="career-timeline">2014 — 2016</p>
+            <p className="career-title">Reading Specialist</p>
+            <p className="career-employer">Queen Creek Unified School District</p>
+            <p className="career-timeline">2014 — 2016</p>
           </div>
 
           <div>
-            <p class="career-title">Configuration Analyst</p>
-            <p class="career-employer">Raytheon Company</p>
-            <p class="career-timeline">2013 — 2014</p>
+            <p className="career-title">Configuration Analyst</p>
+            <p className="career-employer">Raytheon Company</p>
+            <p className="career-timeline">2013 — 2014</p>
           </div>
 
           <div>
-            <p class="career-title">Title One Facilitator</p>
-            <p class="career-employer">Sunnyside Unified School District</p>
-            <p class="career-timeline">2011 — 2013</p>
+            <p className="career-title">Title One Facilitator</p>
+            <p className="career-employer">Sunnyside Unified School District</p>
+            <p className="career-timeline">2011 — 2013</p>
           </div>
 
           <div>
-            <p class="career-title">Academic Interventionist</p>
-            <p class="career-employer">Sunnyside Unified School District</p>
-            <p class="career-timeline">2010 — 2011</p>
+            <p className="career-title">Academic Interventionist</p>
+            <p className="career-employer">Sunnyside Unified School District</p>
+            <p className="career-timeline">2010 — 2011</p>
           </div>
 
           <div>
-            <p class="career-title">Teacher</p>
-            <p class="career-employer">Sunnyside Unified School District</p>
-            <p class="career-timeline">2004 — 2010</p>
+            <p className="career-title">Teacher</p>
+            <p className="career-employer">Sunnyside Unified School District</p>
+            <p className="career-timeline">2004 — 2010</p>
           </div>
 
           Find more career info on my <a href="https://www.linkedin.com/in/kelli-frazier/" target="_blank" rel="noopener">LinkedIn</a> profile.
